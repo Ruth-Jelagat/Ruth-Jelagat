@@ -12,11 +12,9 @@ const experiences = [
     period: "2023 — Present",
     description: [
       "Lead development of scalable web applications using React, Next.js, and Node.js, serving over 100,000 users daily.",
-      "Architected and implemented microservices infrastructure using Docker and Kubernetes, improving deployment efficiency by 40%.",
-      "Mentored junior developers and conducted code reviews to maintain code quality and best practices.",
       "Collaborated with cross-functional teams to deliver features that increased user engagement by 25%.",
     ],
-    technologies: ["React", "Next.js", "Node.js", "PostgreSQL", "Docker", "AWS"],
+    technologies: ["React", "Next.js", "Node.js", "PostgreSQL"],
   },
   {
     company: "Digital Innovations Inc",
@@ -29,7 +27,7 @@ const experiences = [
       "Implemented responsive designs and ensured cross-browser compatibility for optimal user experience.",
       "Reduced application load time by 50% through code optimization and lazy loading strategies.",
     ],
-    technologies: ["JavaScript", "React", "Express.js", "MongoDB", "Redis"],
+    technologies: ["JavaScript", "React", "Node.js", "PostgreSQL", "Flask"],
   },
   {
     company: "StartUp Hub",

@@ -15,9 +15,8 @@ const skillCategories = [
     title: "Backend",
     skills: [
       { name: "Node.js", level: 90 },
-      { name: "Express.js", level: 88 },
       { name: "Python", level: 85 },
-      { name: "Django", level: 80 },
+      { name: "Flask", level: 80 },
       { name: "REST APIs", level: 92 },
     ],
   },
@@ -25,20 +24,14 @@ const skillCategories = [
     title: "Database",
     skills: [
       { name: "PostgreSQL", level: 88 },
-      { name: "MongoDB", level: 85 },
       { name: "MySQL", level: 82 },
-      { name: "Redis", level: 75 },
-      { name: "Prisma", level: 85 },
     ],
   },
   {
     title: "Tools & Others",
     skills: [
       { name: "Git & GitHub", level: 92 },
-      { name: "Docker", level: 80 },
-      { name: "AWS", level: 75 },
       { name: "Linux", level: 82 },
-      { name: "Agile/Scrum", level: 88 },
     ],
   },
 ]

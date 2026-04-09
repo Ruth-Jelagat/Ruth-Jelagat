@@ -10,7 +10,7 @@ const featuredProjects = [
     description:
       "A full-featured e-commerce platform with user authentication, product management, shopping cart, payment integration with Stripe, and admin dashboard. Built with a focus on performance and user experience.",
     image: "/images/project-ecommerce.jpg",
-    technologies: ["Next.js", "TypeScript", "PostgreSQL", "Stripe", "Tailwind CSS"],
+    technologies: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
     github: "https://github.com/ruthjelagat/ecommerce-platform",
     live: "https://ecommerce-demo.vercel.app",
     featured: true,
@@ -20,7 +20,7 @@ const featuredProjects = [
     description:
       "A collaborative task management application featuring real-time updates, drag-and-drop functionality, team workspaces, and detailed analytics. Implements role-based access control.",
     image: "/images/project-taskmanager.jpg",
-    technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Redux"],
+    technologies: ["React", "Node.js", "PostgreSQL", "Tailwind CSS"],
     github: "https://github.com/ruthjelagat/task-manager",
     live: "https://taskmanager-demo.vercel.app",
     featured: true,
@@ -28,9 +28,9 @@ const featuredProjects = [
   {
     title: "AI Content Generator",
     description:
-      "An AI-powered content generation tool that helps users create blog posts, social media content, and marketing copy. Integrates with OpenAI&apos;s GPT API for intelligent content suggestions.",
+      "An AI-powered content generation tool that helps users create blog posts, social media content, and marketing copy. Integrates with OpenAI's GPT API for intelligent content suggestions.",
     image: "/images/project-ai.jpg",
-    technologies: ["Next.js", "OpenAI API", "Prisma", "PostgreSQL", "Vercel AI SDK"],
+    technologies: ["Next.js", "OpenAI API", "PostgreSQL", "Vercel AI SDK"],
     github: "https://github.com/ruthjelagat/ai-content-generator",
     live: "https://ai-content-demo.vercel.app",
     featured: true,
@@ -58,7 +58,7 @@ const otherProjects = [
     title: "Blog Platform",
     description:
       "A full-stack blog platform with markdown support, comments, categories, and SEO optimization.",
-    technologies: ["Next.js", "MDX", "Prisma", "PostgreSQL"],
+    technologies: ["Next.js", "PostgreSQL"],
     github: "https://github.com/ruthjelagat/blog-platform",
     live: "https://blog-demo.vercel.app",
   },
@@ -66,7 +66,7 @@ const otherProjects = [
     title: "Expense Tracker",
     description:
       "Personal finance management app with budgeting tools, expense categorization, and visual reports.",
-    technologies: ["React Native", "Firebase", "Chart.js"],
+    technologies: ["React", "Chart.js"],
     github: "https://github.com/ruthjelagat/expense-tracker",
     live: null,
   },
@@ -74,7 +74,7 @@ const otherProjects = [
     title: "Recipe Finder",
     description:
       "A recipe search application with filtering options, favorites, and meal planning features.",
-    technologies: ["Vue.js", "Spoonacular API", "Vuex"],
+    technologies: ["Node.js", "REST API", ""],
     github: "https://github.com/ruthjelagat/recipe-finder",
     live: "https://recipe-demo.vercel.app",
   },
@@ -82,7 +82,7 @@ const otherProjects = [
     title: "Chat Application",
     description:
       "Real-time chat application with private messaging, group chats, and file sharing capabilities.",
-    technologies: ["React", "Socket.io", "Node.js", "MongoDB"],
+    technologies: ["React", "Node.js"],
     github: "https://github.com/ruthjelagat/chat-app",
     live: null,
   },
@@ -95,7 +95,7 @@ export function Projects() {
         <div className="flex items-center gap-4 mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-foreground">
             <span className="text-primary font-mono text-xl">04.</span> Some
-            Things I&apos;ve Built
+            Things I've Built
           </h2>
           <div className="h-px bg-border flex-1 max-w-xs" />
         </div>

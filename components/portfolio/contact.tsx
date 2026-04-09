@@ -15,13 +15,13 @@ export function Contact() {
         <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
           I&apos;m currently looking for new opportunities and my inbox is always
           open. Whether you have a question, want to discuss a project, or just
-          want to say hi, I&apos;ll try my best to get back to you!
+          want to make a connection, I&apos;ll try my best to get back to you!
         </p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-6 mb-12">
           <div className="flex items-center justify-center gap-2 text-muted-foreground">
             <Mail className="text-primary" size={18} />
-            <span>ruthjelagat@example.com</span>
+            <span>chelakositany2@gmail.com</span>
           </div>
           <div className="flex items-center justify-center gap-2 text-muted-foreground">
             <Phone className="text-primary" size={18} />
@@ -34,7 +34,7 @@ export function Contact() {
         </div>
 
         <Button asChild size="lg" className="px-12">
-          <Link href="mailto:ruthjelagat@example.com">Say Hello</Link>
+          <Link href="mailto:ruthjelagat@example.com">Connect</Link>
         </Button>
       </div>
     </section>

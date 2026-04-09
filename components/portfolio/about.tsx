@@ -16,7 +16,7 @@ export function About() {
         <div className="grid md:grid-cols-3 gap-12">
           <div className="md:col-span-2 space-y-4">
             <p className="text-muted-foreground leading-relaxed">
-              Hello! I&apos;m Ruth, a passionate Full Stack Software Developer
+              Hello! I'm Ruth, a passionate Full Stack Software Developer
               based in Kenya. I enjoy creating things that live on the internet,
               whether that be websites, applications, or anything in between. My
               goal is to always build products that provide pixel-perfect,
@@ -39,14 +39,13 @@ export function About() {
             </p>
             <ul className="grid grid-cols-2 gap-2 text-sm font-mono text-muted-foreground">
               {[
-                "JavaScript (ES6+)",
+                "JavaScript ",
                 "TypeScript",
                 "React & Next.js",
                 "Node.js",
                 "Python",
                 "PostgreSQL",
-                "MongoDB",
-                "Docker",
+                
               ].map((tech) => (
                 <li key={tech} className="flex items-center gap-2">
                   <span className="text-primary">▹</span>
@@ -61,7 +60,7 @@ export function About() {
               <div className="absolute inset-0 border-2 border-primary rounded translate-x-4 translate-y-4 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform" />
               <div className="relative w-full h-full rounded overflow-hidden bg-primary/20">
                 <Image
-                  src="/images/profile.jpg"
+                  src="/images/public/Port.png.jpeg"
                   alt="Ruth Jelagat - Full Stack Developer"
                   fill
                   className="object-cover grayscale hover:grayscale-0 transition-all duration-300"

@@ -2,22 +2,26 @@
 
 Welcome to my personal portfolio website. This project showcases my skills, projects, and experience as a developer, with a focus on building modern, responsive, and user-friendly web applications.
 
----
+
 
 ## About Me
 
 I am a passionate developer focused on creating clean, scalable, and intuitive digital experiences. I enjoy turning ideas into real-world applications using modern technologies and best practices.
 
----
+
 
 ## Tech Stack
 
-* **Frontend:** Next.js, React, TypeScript
-* **Styling:** Tailwind CSS
-* **Tools & Workflow:** Git, GitHub, VS Code
-* **Other Skills:** Responsive Design, Component-Based Architecture, API Integration
+This project is built with modern tools used in production-grade applications:
 
----
+-Framework: Next.js (App Router)
+-Language: TypeScript
+-Styling: Tailwind CSS
+-UI Components: Radix UI + custom component system
+-Animations & UX: Smooth transitions and interactive UI patterns
+-Deployment Ready: Optimized for Vercel
+
+
 
 ## What This Portfolio Demonstrates
 
@@ -40,7 +44,16 @@ This project reflects my ability to:
 * **Experience Section** – My growth and hands-on work
 * **Contact Section** – Easy ways to reach me
 
----
+
+
+## Project Structure
+/app                # Next.js app directory
+/components         # Reusable UI & portfolio sections
+/hooks              # Custom React hooks
+/lib                # Utility functions
+/public             # Images and static assets
+/styles             # Global styles
+
 
 ## Featured Projects
 
